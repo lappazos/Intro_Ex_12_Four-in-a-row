@@ -1,0 +1,51 @@
+lioraryepaz 206240996 Lior Paz, eran.gilead 203344130 Eran Gilead
+
+=============================
+=  README for ex12: Four_In_A_Row  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+first of all, our Gui is the best, by promise!! check out all of our cool
+features - changing graphics for each player, moving in between the different
+buttons replace the arrows labels, different buttons for each player, and of
+course - changing Motos to encourage or discourage the players along the game.
+
+Our game was created the following - Game Class in game.py for game logic (you
+could also play it without the gui, only with console), four_in_a_row.py
+contain main, Gui class, and communication implementation.
+
+and last but not least - our glorious AI.its not stupid at all - first of all,
+as needed, it won't put any discs where the columns are full(as basic rule).
+second, it will check whether or not it can block the opponent in every way
+possible (as long he has sequence of 2 or more discs) - if so, he'll do it.
+if there isn't any sequence to block or no wat to block a current opponent
+sequence, he will then try to catch up with his own players sequence (1 and
+above) and try to win.
+only if none of the above was successful, he will randomly choose a column from
+ the optional ones (aren't full).
+
+======================
+=  Special Comments  =
+======================
+Our images are the best - check it out. also, please pay attention that if
+you'll try to use the same port in a network other players are using too, the
+program might not open until you'll choose an open port.
+
+============================
+= list of submitted files =
+============================
+README
+four_in_a_row.py
+game.py
+ai.py
+communicator.py
+AUTHORS
+ARROW_GREEN.png
+ARROW_RED.png
+BACKGROUND.png
+BLANK.png
+GREEN_FINAL.png
+RED_FINAL.png
